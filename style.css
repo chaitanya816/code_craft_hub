@@ -1,0 +1,608 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+
+}
+
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 1px;
+}
+
+/* .start
+{
+    background-color: black;
+    /* margin-bottom: 150px;/ */
+/* }  */
+
+.menu {
+    margin-left: 165px;
+    margin-right: 165px;
+    margin-top: 5px;
+    padding: 25px;
+    display: flex;
+    justify-content: end;
+}
+
+.icon {
+    margin-left: 165px;
+    width: 200px;
+    margin-left: 165px;
+    margin-top: 5px;
+    padding: 25px;
+
+}
+
+.menu_bar {
+    padding: 10px;
+    margin-top: -85px;
+    /* position: fixed; */
+
+
+
+}
+
+header {
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+
+}
+
+.btn_1 {
+    width: 100px;
+    height: 35px;
+    border-radius: 50px;
+    margin-top: -25px;
+    background: transparent;
+
+    /* font-weight: bold; */
+    border: 1px solid rgb(210, 208, 208);
+}
+
+:hover.menu,
+.btn_1 {
+    cursor: pointer;
+
+}
+
+.first_heading {
+    margin-top: 175px;
+    padding-left: 165px;
+    font-size: 50px;
+    font-family: Agency FB;
+}
+
+.first_para {
+    margin-left: 165px;
+    /* color: grey; */
+    margin-top: 50px;
+    width: 50%;
+    font-size: 25.5px;
+    font-weight: lighter;
+    line-height: 40px;
+    font-family: Agency FB;
+}
+
+.lrnmore {
+    margin-top: 50px;
+    margin-left: 165px;
+    background-color: blue;
+    color: white;
+    border-radius: 50px;
+    border: 2px solid blue;
+    width: 175px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+:hover.lrnmore {
+    background: transparent;
+    border: 2px solid grey;
+}
+
+/* .secondPart{
+   
+    background-color: white;
+    display: grid;
+    margin-top: 135px;
+    width: ;
+    grid-template-columns: 650px 850px;
+   
+} */
+/*.headingTwo{
+    color: rgb(139, 138, 138);
+    margin-left:165px;
+
+    font-family: Agency FB;
+    font-size: 45px;
+
+    margin-top: 95px;
+}
+.paratwo{
+    color: black;
+    margin-left:15px;
+    
+    font-family: Agency FB
+    width: 80%;
+
+    margin-right: 180px;
+    font-size: 35px;
+    font-weight: lighter;
+    margin-top: 95px;
+}*/
+.secondPart {
+
+    background-color: white;
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin-top: 135px;
+
+}
+
+.headingTwo {
+    color: rgb(139, 138, 138);
+    margin-left: 165px;
+    font-family: Agency FB;
+    font-size: 45px;
+    width: 500px;
+    margin-top: 95px;
+}
+
+.paratwo {
+    color: black;
+    margin-left: 15px;
+    font-family: Agency FB;
+    margin-right: 180px;
+    font-size: 35px;
+    font-weight: lighter;
+    /* width: 50%; */
+    margin-top: 95px;
+}
+
+/* .start{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+} */
+/* .threecontainer{
+    
+    background-color: white;
+    display: grid;
+    margin-left: 165px;
+    margin-right: 165px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+     
+    
+}
+
+.first,.second,.third{
+    color: black;
+    height: 285px;
+    margin-top: 150px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px grey;
+} */
+.threecontainer {
+
+    /* background-color: white; */
+    /* display: grid; */
+    margin-left: 165px;
+    margin-right: 165px;
+    display: flex;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    gap: 25px;
+
+    /* width: 5000px; */
+
+
+}
+
+
+.first,
+.second,
+.third {
+    color: black;
+    height: 285px;
+    margin-top: 150px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px grey;
+    justify-content: space-between;
+    width: 500px;
+
+}
+
+.fa {
+    color: blue;
+    margin-top: 25px;
+    margin-left: 25px;
+    font-size: 50px;
+    /* align-items: center; */
+}
+
+ul {
+    list-style: none;
+}
+
+.quality {
+    font-size: 35px;
+    font-family: Agency FB;
+    margin-top: 25px;
+    margin-left: 25px;
+    color: black;
+}
+
+.qualitypara {
+    color: rgb(138, 134, 134);
+    font-family: Agency FB;
+    margin-top: 25px;
+    font-size: 22px;
+    width: 85%;
+    margin-left: 25px;
+}
+
+.thirdpart {
+    background-color: rgb(14, 21, 35);
+    margin-top: 150px;
+}
+
+.what {
+    /* border: 2px solid red; */
+    font-family: Agency FB;
+    padding-top: 150px;
+    font-size: larger;
+    color: grey;
+    text-align: center;
+}
+
+.business {
+    margin-top: 50px;
+    font-family: Agency FB;
+    font-size: 50px;
+    text-align: center;
+}
+
+.services {
+    text-align: center;
+    margin-top: 40px;
+    width: 80%;
+    font-size: 25px;
+    font-family: Agency FB;
+
+}
+
+.faicon {
+    color: white;
+    font-size: 35px;
+}
+
+.sixcontainer {
+
+
+    /* margin-left: 165px; */
+    /* margin-right: 165px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.newsix {
+    background-color: rgb(26, 26, 44);
+    margin-top: 150px;
+}
+
+.sixitem {
+
+    border: 2px solid blue;
+    color: white;
+    /* margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px; */
+    margin: 50px;
+
+}
+
+:hover.sixitem {
+    background-color: blue;
+    transition-duration: 1.5s;
+
+}
+
+.webdevpara {
+    color: rgb(246, 240, 240);
+    font-family: Agency FB;
+    margin-top: 25px;
+    font-size: 20px;
+    width: 85%;
+    margin-left: 25px;
+}
+
+.webdevhead {
+    font-size: 25px;
+    font-family: Agency FB;
+    margin-top: 25px;
+    margin-left: 25px;
+    color: rgb(241, 235, 235);
+}
+
+.sixitem {
+    /* color: black; */
+    height: 285px;
+
+    /* margin-left: 165px; */
+    /* margin-right: 165px; */
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px grey;
+    /* justify-content: space-between; */
+    width: 350px;
+   
+}
+
+/* .item_1, */
+/* .item_4 {
+    margin-left: 165px;
+}
+
+.item_1,
+.item_2,
+.item_3 {
+    margin-top: 150px;
+
+}
+
+.item_4,
+.item_6,
+.item_5 {
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.item_3,
+.item_6 {
+    margin-right: 165px;
+} */
+
+.it {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+    width: 65%;
+    margin-left: 195px;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.link {
+    margin-left: 25px;
+    margin-top: 30px;
+    font-family: Agency FB;
+    /* margin-bottom: 50px; */
+}
+
+.image {
+    position: absolute;
+    height: 550px;
+    width: 100vw;
+
+}
+
+.contact {
+    /* background-image: url(Header-bg.png); */
+    background-color: rgb(12, 12, 240);
+    display: flex;
+    opacity: 0.6;
+}
+
+.innovation {
+    /* flex: 1; */
+    margin-left: 165px;
+    font-size: 55px;
+    font-family: Agency FB;
+    width: 55%;
+    margin-bottom: 120px;
+    margin-top: 150px;
+
+}
+
+.btn_2 {
+    border: 2px solid white;
+    border-radius: 25px;
+    color: white;
+    height: 50px;
+    width: 200px;
+    background: transparent;
+    font-size: 15px;
+    margin-top: 175px;
+    font-weight: bolder;
+    margin-left: 165px;
+    margin-bottom: 120px;
+}
+
+:hover.btn_2 {
+    background-color: white;
+    color: blue;
+}
+
+.moreinfo {
+    background-color: rgb(18, 18, 34);
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+}
+
+.lastimg {
+    width: 350px;
+}
+
+.lasticon {
+    margin-top: 50px;
+    /* margin-left: 165px; */
+    width: 25%;
+    /* width: fit-content; */
+
+}
+
+hr {
+    /* width: 25%; */
+    margin-top: 10px;
+    opacity: 0.1;
+    /* background-color: red; */
+}
+
+.lastpara {
+    /* width: 25%; */
+    margin-top: 30px;
+    font-size: larger;
+}
+
+.Resources,
+.contactinfo,
+.lasticon {
+    margin-top: 50px;
+    /* border: 2px solid red; */
+    margin-bottom: 100px;
+}
+
+.falast {
+    color: rgb(162, 31, 31);
+    size: 50px;
+}
+
+.contactinfo {
+    font-size: 25px;
+    font-family: Agency FB;
+    width: 25%;
+    /* margin-bottom: 150px; */
+}
+
+.Resources {
+    width: 25%;
+    font-size: 25px;
+    font-family: Agency FB;
+    /* margin-bottom: 150px; */
+
+}
+
+
+.email,
+.address {
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: calibri;
+}
+.last{
+    text-align: center;
+    background-color: black;
+    height: 100px;
+}
+.last1{
+    padding-top: 50px;
+    font-size: 15px;
+    /* border: 2px solid red; */
+}
+/*:hover.first{
+
+    background-color: beige;
+}
+:hover.second{
+    background-color: beige;
+}
+:hover.third{
+    background-color: beige;
+}*/
+
+/* media Query */
+
+@media only screen and (width<1430px) {
+
+    .secondPart {
+
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        /* margin-top: 135px; */
+
+    }
+
+    .threecontainer {
+
+        background-color: white;
+        margin-left: 165px;
+        margin-right: 165px;
+        display: block;
+        /* flex-wrap: wrap; */
+    }
+
+    .paratwo {
+
+        margin-left: 165px;
+        width: 50%;
+
+    }
+
+    .sixcontainer {
+
+
+        /* margin-left: 165px; */
+        /* margin-right: 165px; */
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: space-between; */
+    }
+    .contactinfo{
+        margin-left: 50px;
+    }
+    .Resources{
+        margin-right: 10px;
+    }
+   .menu{
+            position:;
+   }
+   .lasticon {
+    margin-top: 50px;
+    /* margin-left: 165px; */
+    /* width: 25%; */
+    /* width: fit-content; */
+
+}
+}
+
+@media only screen and (width<350px) {
+    .menu {}
+
+    .first,
+    .second,
+    .third {
+        color: black;
+        height: fit-content;
+
+        margin-top: 150px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px grey;
+        justify-content: space-between;
+        width: 150%;
+
+    }
+}
